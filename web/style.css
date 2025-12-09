@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #2c3e50;
+  color: #fff;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #ecf0f1;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active,
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+
+.card {
+  background: #fff;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+ul {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #2c3e50;
+  color: #ecf0f1;
+  margin-top: 30px;
+}
+
+.biodata-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.biodata-table th,
+.biodata-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.biodata-table th {
+  width: 30%;
+  background: #ecf0f1;
+  text-align: left;
+}
+
+.hidden {
+  display: none;
+}
